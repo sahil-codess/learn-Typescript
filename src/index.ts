@@ -9,3 +9,11 @@ let arr: any[] = [1, true, 'Hello']
 
 // Tuples
 let person: [number, string, boolean] = [1, 'Sahilkhan', true]
+// Tuple Array
+let employee: [number, string][]
+
+employee = [
+    [1, 'Sahilkhan'],
+    [2, 'Qais'],
+    [3, 'Erfan']
+]
