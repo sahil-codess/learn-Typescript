@@ -24,14 +24,12 @@ let pId: string | number
 pId = 'str'
 
 // enums
-
 enum Direction1 {
     Up =1,
     Down,
     Left,
     Right
 }
-
 console.log(Direction1)
 
 enum Direction2 {
@@ -40,5 +38,16 @@ enum Direction2 {
     Left = 'Left',
     Right = 'Right'
 }
-
 console.log(Direction2)
+
+// Objects
+
+type User = {
+    id: number,
+    name: string,
+}
+
+let user: User = {
+    id: 1,
+    name: 'Sahilkhan'
+}
