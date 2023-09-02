@@ -55,3 +55,11 @@ let user: User = {
 let cid: any = 1
 // let customerId = <number>cid
 let customerId = cid as number
+
+// Functions
+
+function addNumber (x: number, y: number): number {
+    return x + y
+}
+
+console.log(addNumber(1, 2))

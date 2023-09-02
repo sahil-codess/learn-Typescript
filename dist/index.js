@@ -43,3 +43,8 @@ let user = {
 let cid = 1;
 // let customerId = <number>cid
 let customerId = cid;
+// Functions
+function addNumber(x, y) {
+    return x + y;
+}
+console.log(addNumber(1, 2));
