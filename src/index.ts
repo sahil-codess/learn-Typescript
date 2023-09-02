@@ -41,7 +41,6 @@ enum Direction2 {
 console.log(Direction2)
 
 // Objects
-
 type User = {
     id: number,
     name: string,
@@ -51,3 +50,8 @@ let user: User = {
     id: 1,
     name: 'Sahilkhan'
 }
+
+// Type Assertion
+let cid: any = 1
+// let customerId = <number>cid
+let customerId = cid as number

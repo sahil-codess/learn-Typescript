@@ -39,3 +39,7 @@ let user = {
     id: 1,
     name: 'Sahilkhan'
 };
+// Type Assertion
+let cid = 1;
+// let customerId = <number>cid
+let customerId = cid;
