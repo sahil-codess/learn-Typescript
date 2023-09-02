@@ -1,3 +1,8 @@
 "use strict";
+// Basic types
 let id = 5;
-console.log("ID", id);
+let company = "Sahil-codess";
+let isPublished = false;
+let x = 'hello';
+let ids = [1, 2, 3, 4, 5];
+let arr = [1, true, 'Hello'];
