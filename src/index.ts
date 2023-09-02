@@ -17,3 +17,9 @@ employee = [
     [2, 'Qais'],
     [3, 'Erfan']
 ]
+
+// Unions
+let pId: string | number
+
+pId = 'str'
+

@@ -15,3 +15,6 @@ employee = [
     [2, 'Qais'],
     [3, 'Erfan']
 ];
+// Unions
+let pId;
+pId = 'str';
