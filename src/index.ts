@@ -6,3 +6,6 @@ let x: any = 'hello'
 
 let ids: number[] = [1,2,3,4,5]
 let arr: any[] = [1, true, 'Hello']
+
+// Tuples
+let person: [number, string, boolean] = [1, 'Sahilkhan', true]
