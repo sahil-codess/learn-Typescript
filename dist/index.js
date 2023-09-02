@@ -48,3 +48,8 @@ function addNumber(x, y) {
     return x + y;
 }
 console.log(addNumber(1, 2));
+// Void type for functions that don't return
+function log(message) {
+    console.log(message);
+}
+log('Hey there void function');

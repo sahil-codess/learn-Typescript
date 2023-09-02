@@ -63,3 +63,10 @@ function addNumber (x: number, y: number): number {
 }
 
 console.log(addNumber(1, 2))
+
+// Void type for functions that don't return
+function log(message: string | number): void {
+    console.log(message)
+}
+
+log('Hey there void function')
