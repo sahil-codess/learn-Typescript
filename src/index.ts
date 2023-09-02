@@ -23,3 +23,22 @@ let pId: string | number
 
 pId = 'str'
 
+// enums
+
+enum Direction1 {
+    Up =1,
+    Down,
+    Left,
+    Right
+}
+
+console.log(Direction1)
+
+enum Direction2 {
+    Up = 'Up',
+    Down = 'Down',
+    Left = 'Left',
+    Right = 'Right'
+}
+
+console.log(Direction2)
