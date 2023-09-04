@@ -53,3 +53,19 @@ function log(message) {
     console.log(message);
 }
 log('Hey there void function');
+let user1 = {
+    id: 1,
+    name: 'Sahilkhan'
+};
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+    register() {
+        return `${this.name} is now registered`;
+    }
+}
+const qais = new Person(1, "Qais");
+console.log(qais.register());
+console.log(qais);

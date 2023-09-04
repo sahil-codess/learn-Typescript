@@ -87,8 +87,13 @@ type point = string | number;
 
 
 // Classes
+interface PersonInterface {
+    id: number,
+    name: string,
+    register(): string
+}
 
-class Person {
+class Person implements PersonInterface {
     id: number
     name: string
 
@@ -96,8 +101,14 @@ class Person {
         this.id = id;
         this.name = name;
     }
+
+    register() {
+        return `${this.name} is now registered`;
+    }
 }
 
 const qais = new Person(1, "Qais")
+
+console.log(qais.register())
 
 console.log(qais)
