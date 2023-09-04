@@ -75,6 +75,7 @@ log('Hey there void function')
 interface UserInterface {
     id: number,
     name: string,
+    age?: number
 }
 
 let user1: UserInterface = {
