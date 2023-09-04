@@ -67,5 +67,15 @@ class Person {
     }
 }
 const qais = new Person(1, "Qais");
-console.log(qais.register());
-console.log(qais);
+// console.log(qais.register())
+// console.log(qais)
+// SubClasses
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Employee(1, 'Sahilkhan Ahmadzai', 'Developer');
+// console.log(emp)
+// console.log(emp.register())
