@@ -81,3 +81,5 @@ let user1: UserInterface = {
     id: 1,
     name: 'Sahilkhan'
 }
+
+type point = string | number;
