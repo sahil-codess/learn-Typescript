@@ -70,3 +70,14 @@ function log(message: string | number): void {
 }
 
 log('Hey there void function')
+
+// intefaces
+interface UserInterface {
+    id: number,
+    name: string,
+}
+
+let user1: UserInterface = {
+    id: 1,
+    name: 'Sahilkhan'
+}
