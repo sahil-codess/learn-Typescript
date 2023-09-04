@@ -84,3 +84,20 @@ let user1: UserInterface = {
 }
 
 type point = string | number;
+
+
+// Classes
+
+class Person {
+    id: number
+    name: string
+
+    constructor(id: number, name: string) {
+        this.id = id;
+        this.name = name;
+    }
+}
+
+const qais = new Person(1, "Qais")
+
+console.log(qais)
