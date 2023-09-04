@@ -127,3 +127,13 @@ const emp = new Employee(1, 'Sahilkhan Ahmadzai', 'Developer')
 
 // console.log(emp)
 // console.log(emp.register())
+
+// Generics
+function getArray<type>(items: type[]) : type[] {
+    return new Array().concat(items)
+}
+
+let numArr = getArray([1,2,3,4,5])
+let strArr = getArray(["Sahilkhan", "Qais", "Erfan"])
+
+strArr.push('Ahmadzai')
